@@ -1,0 +1,44 @@
+{
+  "id": ".",
+  "name": "Deux sessions, dix repas",
+  "short_name": "Deux sessions",
+  "description": "Le plan de la semaine, les deux sessions de cuisine, les courses, le kit de secours et le suivi des quatorze jours.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F2F3ED",
+  "theme_color": "#F2F3ED",
+  "categories": [
+    "food",
+    "health",
+    "lifestyle"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

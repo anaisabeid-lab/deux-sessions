@@ -1,0 +1,407 @@
+{
+  "meta": {
+    "titre": "Deux sessions, dix repas",
+    "langue": "fr",
+    "version": 1
+  },
+
+  "semaine": [
+    {
+      "jour": "Lundi",
+      "midi": { "plat": "Bowl poulet, riz, légumes rôtis, sauce cacahuète" },
+      "soir": { "plat": "Chili, riz, une cuillère de yaourt grec" }
+    },
+    {
+      "jour": "Mardi",
+      "midi": { "plat": "Poulet, patate douce, courgettes, sauce yaourt-herbes" },
+      "soir": { "plat": "Dhal, riz, un œuf dur coupé dessus", "note": "Le repas le plus léger en protéines : ajoute du yaourt ou un deuxième œuf." }
+    },
+    {
+      "jour": "Mercredi",
+      "midi": { "plat": "Wrap poulet-poivrons, sauce yaourt, tortilla passée 30 s à la poêle", "note": "Dernier jour du poulet du frigo." },
+      "soir": { "plat": "Chili sur patate douce écrasée, fromage râpé" }
+    },
+    {
+      "jour": "Jeudi",
+      "midi": { "plat": "Bowl riz, poulet du congélateur, légumes, sauce cacahuète", "note": "Sortir poulet et riz mercredi soir, au frigo." },
+      "soir": { "plat": "Dhal du congélateur, riz, coriandre" }
+    },
+    {
+      "jour": "Vendredi",
+      "midi": { "plat": "Pâtes complètes, reste de légumes rôtis, fêta émiettée, huile d'olive et citron" },
+      "soir": { "plat": "Chili du congélateur en tortillas, fromage râpé" }
+    }
+  ],
+
+  "collations": [
+    { "moment": "Vers 11 h", "quoi": "Pois chiches rôtis, du raisin ou un kiwi" },
+    { "moment": "Après la salle", "quoi": "Yaourt grec vanillé, une banane, une poignée d'amandes" }
+  ],
+
+  "petitsDejeuners": [
+    {
+      "jour": "Lundi",
+      "tags": ["chaud", "salé"],
+      "duree": "8 min",
+      "titre": "Œufs brouillés crémeux, tartine d'avocat",
+      "texte": "3 œufs battus, feu doux, une spatule qui ne s'arrête jamais. Hors du feu, une cuillère de yaourt grec — c'est ça qui les rend crémeux au lieu de caoutchouteux. Pain complet grillé, avocat écrasé, sel.",
+      "proteines": "≈ 28 g"
+    },
+    {
+      "jour": "Mardi",
+      "tags": ["froid", "à emporter"],
+      "duree": "0 min",
+      "titre": "Overnight oats",
+      "texte": "Préparé le dimanche. Tu attrapes le bocal et tu pars — c'est le matin où il n'y a aucune excuse.",
+      "proteines": "≈ 22 g, ou 40 g avec une dose de protéine en poudre"
+    },
+    {
+      "jour": "Mercredi",
+      "tags": ["chaud", "sucré"],
+      "duree": "7 min",
+      "titre": "Porridge banane-cacahuète",
+      "texte": "60 g de flocons, 250 ml de lait entier, une pincée de sel, 5 min à la casserole en remuant. Hors du feu : une banane écrasée, 2 c. à s. de beurre de cacahuète, de la cannelle.",
+      "proteines": "≈ 25 g",
+      "note": "La pincée de sel n'est pas optionnelle, c'est elle qui empêche le porridge d'être fade."
+    },
+    {
+      "jour": "Jeudi",
+      "tags": ["chaud", "à emporter"],
+      "duree": "3 min",
+      "titre": "Pancakes protéinés du congélateur",
+      "texte": "Trois pancakes directement au grille-pain, sans décongeler. Avec du yaourt grec vanillé, ou roulés autour d'une cuillère de beurre de cacahuète pour les manger dans les transports.",
+      "proteines": "≈ 30 g"
+    },
+    {
+      "jour": "Vendredi",
+      "tags": ["chaud", "salé"],
+      "duree": "10 min",
+      "titre": "Omelette aux restes",
+      "texte": "3 œufs, le fond de la plaque de légumes rôtis, de la fêta émiettée. Le petit-déj qui vide le frigo avant le week-end.",
+      "proteines": "≈ 30 g"
+    },
+    {
+      "jour": "Week-end",
+      "tags": ["froid", "sucré"],
+      "duree": "3 min",
+      "titre": "Bowl yaourt grec vanillé, granola maison, fruits rouges",
+      "texte": "Une grosse portion de yaourt, une poignée du granola fait samedi, des fruits rouges sortis du congélateur la veille.",
+      "proteines": "≈ 22 g",
+      "note": "Le yaourt vanillé est moins protéiné que le nature mais plus calorique, ce qui convient à l'objectif actuel."
+    }
+  ],
+
+  "sessions": [
+    {
+      "id": "samedi",
+      "jour": "Samedi",
+      "duree": "1 h 30",
+      "materiel": "Four à 200 °C, deux plaques, une grande casserole, un saladier, les boîtes",
+      "sousTitre": "Le four fait l'essentiel. Une bonne moitié du temps, tu ne fais rien.",
+      "etapes": [
+        { "id": "s1", "t": "0:00", "texte": "Four à 200 °C chaleur tournante. Une grande casserole d'eau salée sur le feu." },
+        { "id": "s2", "t": "0:00", "titre": "Marinade du poulet", "texte": "1,2 kg de hauts de cuisse désossés : 3 c. à s. d'huile d'olive, 2 c. à c. de paprika fumé, 2 c. à c. de cumin, 1 c. à c. d'ail en poudre, le jus d'un citron, sel, poivre. Mélange à la main.", "note": "Les hauts de cuisse plutôt que les blancs : ils restent moelleux même réchauffés le surlendemain." },
+        { "id": "s3", "t": "0:10", "titre": "Taille les légumes", "texte": "3 courgettes en demi-rondelles, 3 poivrons en lanières, 2 oignons rouges en quartiers, 800 g de patates douces en cubes de 2 cm, 400 g de carottes en rondelles épaisses." },
+        { "id": "s4", "t": "0:20", "titre": "Enfourne", "texte": "Plaque 1 : le poulet. Plaque 2 : patates douces, carottes et oignons, huile, sel, herbes de Provence. 25 min." },
+        { "id": "s5", "t": "0:22", "titre": "Le riz", "texte": "500 g de basmati rincé jusqu'à ce que l'eau soit claire, deux volumes d'eau, couvercle, 11 min à feu doux, puis 10 min hors du feu sans ouvrir." },
+        { "id": "s6", "t": "0:25", "titre": "Les œufs", "texte": "8 œufs dans l'eau bouillante, 9 min, puis dans un saladier d'eau très froide. Écale-les tout de suite — c'est écalés que tu les mangeras." },
+        { "id": "s7", "t": "0:45", "titre": "Sors le poulet", "texte": "Plus rien de rosé au centre, laisse reposer 5 min. Enfourne la plaque 3 : courgettes et poivrons, 20 min." },
+        { "id": "s8", "t": "0:48", "titre": "Sauce yaourt-herbes", "texte": "400 g de yaourt grec, 1 gousse d'ail râpée, le jus d'un demi-citron, menthe ou aneth ciselé, sel." },
+        { "id": "s9", "t": "0:53", "titre": "Sauce cacahuète-soja", "texte": "4 c. à s. de beurre de cacahuète, 3 c. à s. de sauce soja, 2 c. à c. de miel, un filet de citron, et de l'eau chaude cuillère par cuillère jusqu'à ce que ça nappe." },
+        { "id": "s10", "t": "1:05", "titre": "Tout sort. Refroidir à découvert 20 min", "texte": "Puis en boîtes.", "note": "Couvrir chaud = condensation = légumes mous et conservation plus courte. Vingt minutes, pas plus : au-delà d'une heure hors du frigo, tu perds des jours." },
+        { "id": "s11", "t": "1:05", "titre": "Le granola, pendant ce temps", "texte": "Baisse le four à 160 °C. 250 g de flocons, 80 g d'amandes concassées, 50 g de graines de courge, 3 c. à s. d'huile, 3 c. à s. de miel, 1 c. à c. de cannelle, une pincée de sel. Étale sur une plaque, 25 min en remuant à mi-cuisson." },
+        { "id": "s12", "t": "1:25", "titre": "Répartis", "texte": "Un tiers du poulet et la moitié du riz au congélateur, en portions individuelles — ils ressortent jeudi. Date chaque boîte au masking tape." },
+        { "id": "s13", "t": "1:30", "texte": "Le granola refroidit complètement sur la plaque avant d'aller en bocal : c'est en refroidissant qu'il devient croustillant." }
+      ],
+      "rendu": "≈ 900 g de poulet rôti (6 portions), 1,4 kg de riz cuit (7 portions), 800 g de patates douces, 2 plaques de légumes, 8 œufs durs, 2 sauces, un bocal de granola"
+    },
+    {
+      "id": "dimanche",
+      "jour": "Dimanche",
+      "duree": "1 h 15",
+      "materiel": "Cocotte, casserole, poêle",
+      "sousTitre": "Le chili et le dhal se congèlent parfaitement. C'est eux qui sauvent la fin de semaine.",
+      "etapes": [
+        { "id": "d1", "t": "0:00", "titre": "Chili de bœuf, 4 portions", "texte": "Saisis 600 g de bœuf haché 5 % à feu vif, par petites quantités pour que ça grille au lieu de bouillir. Réserve." },
+        { "id": "d2", "t": "0:06", "texte": "Dans la même cocotte : 1 oignon jaune, 2 gousses d'ail, 1 poivron, 5 min. Remets la viande, ajoute 2 c. à c. de cumin, 2 c. à c. de paprika fumé, 1 c. à c. d'origan et une pincée de cannelle.", "note": "La cannelle, c'est le détail qui fait qu'un chili maison a le goût d'un chili de restaurant. Une pincée, pas plus." },
+        { "id": "d3", "t": "0:10", "texte": "2 boîtes de tomates concassées, 2 boîtes de haricots rouges rincés, 1 cube de bouillon. 30 min à couvert, puis 10 min à découvert pour réduire.", "note": "Version douce pour l'estomac : une demi-cuillère à café de bicarbonate en fin de cuisson coupe l'acidité de la tomate sans changer le goût." },
+        { "id": "d4", "t": "0:12", "titre": "Dhal de lentilles corail, 4 portions", "texte": "Pendant que le chili mijote. 1 oignon, 2 gousses d'ail, 1 c. à s. de gingembre râpé dans l'huile, 3 min. Puis 2 c. à c. de curry et 1 c. à c. de curcuma, 30 s — jusqu'à ce que ça sente." },
+        { "id": "d5", "t": "0:16", "texte": "250 g de lentilles corail rincées, 1 boîte de lait de coco, 1 boîte de tomates concassées, 600 ml d'eau. 20 min à feu doux en remuant." },
+        { "id": "d6", "t": "0:20", "titre": "Pois chiches rôtis", "texte": "2 boîtes égouttées et bien séchées au torchon, huile, paprika, sel, 30 min à 200 °C." },
+        { "id": "d7", "t": "0:30", "titre": "Overnight oats, 4 pots", "texte": "Dans chaque bocal : 60 g de flocons, 150 ml de lait entier, 1 grosse c. à s. de yaourt grec vanillé, 1 c. à s. de beurre de cacahuète ou une dose de protéine en poudre, une poignée de fruits rouges surgelés." },
+        { "id": "d8", "t": "0:38", "texte": "Fin du dhal : 300 g d'épinards surgelés jetés dedans, sel, un jus de citron. Goûte et resale — un dhal fade, tu ne le mangeras pas." },
+        { "id": "d9", "t": "0:45", "titre": "Pancakes protéinés, 12 pièces", "texte": "Écrase 2 bananes bien mûres, ajoute 4 œufs, 120 g de flocons mixés, 1 c. à c. de levure chimique, 100 ml de lait, une pincée de sel. Poêle légèrement huilée, petites louches, 2 min par face.", "note": "Pas de mixeur ? 100 g de farine complète à la place des flocons." },
+        { "id": "d10", "t": "1:00", "texte": "Les pancakes refroidissent complètement, puis s'empilent avec un carré de papier cuisson entre chaque, dans un sac congélation." },
+        { "id": "d11", "t": "1:05", "titre": "Refroidis, puis répartis", "texte": "2 portions de chili et 2 de dhal au congélateur immédiatement. Le reste au frigo. Date tout." }
+      ],
+      "rendu": "4 portions de chili, 4 portions de dhal, 4 pots d'overnight oats, 12 pancakes congelés, un bocal de pois chiches rôtis, 6 portions au congélateur"
+    }
+  ],
+
+  "conservation": [
+    { "cle": "Refroidir", "regle": "À découvert, puis au frigo. Jamais plus d'une heure à température ambiante — c'est la limite qui compte, pas l'odeur." },
+    { "cle": "Frigo", "regle": "3 à 4 jours pour les plats cuisinés. Le poulet du samedi : jusqu'à mercredi. Au-delà, c'était déjà au congélateur." },
+    { "cle": "Riz cuit", "regle": "Le plus fragile : refroidi vite, 3 jours maximum. Il se congèle très bien — au réchauffage, une cuillère d'eau et un couvercle." },
+    { "cle": "Décongeler", "regle": "Au frigo, la veille au soir. Jamais sur le plan de travail." },
+    { "cle": "Réchauffer", "regle": "Jusqu'à ce que ce soit fumant à cœur, et une seule fois. Ce qui est réchauffé et pas mangé se jette." },
+    { "cle": "Ne pas recongeler", "regle": "Un plat décongelé ne retourne pas au congélateur. D'où les portions individuelles : tu ne sors que ce que tu manges." }
+  ],
+
+  "courses": {
+    "materiel": {
+      "titre": "Le matériel, une seule fois",
+      "intro": "Deux plaques et une cocotte déjà là — c'est le plus gros. Il manque surtout de quoi stocker. Compte 50 à 70 € une fois.",
+      "rayons": [
+        {
+          "nom": "À acheter",
+          "articles": [
+            { "id": "m1", "texte": "10 boîtes hermétiques, dont 5 qui vont au congélateur — en verre si possible" },
+            { "id": "m2", "texte": "6 bocaux à couvercle de 250 à 400 ml — 4 pour les overnight oats, 1 pour le granola, 1 pour les pois chiches" },
+            { "id": "m3", "texte": "1 balance de cuisine électronique" },
+            { "id": "m4", "texte": "1 rouleau de masking tape et un marqueur, pour dater les boîtes" },
+            { "id": "m5", "texte": "1 boîte de sacs congélation, pour les pancakes" },
+            { "id": "m6", "texte": "1 rouleau de papier cuisson" },
+            { "id": "m12", "texte": "1 shaker ou un bocal qui ferme bien, si prise de poudre protéinée" }
+          ]
+        },
+        {
+          "nom": "À vérifier que tu as",
+          "articles": [
+            { "id": "m7", "texte": "Un grand saladier, pour mariner 1,2 kg de poulet" },
+            { "id": "m8", "texte": "Une casserole avec couvercle, pour le riz" },
+            { "id": "m9", "texte": "Une poêle, pour les pancakes" },
+            { "id": "m10", "texte": "Une passoire" },
+            { "id": "m11", "texte": "Une planche et un couteau qui coupe vraiment" }
+          ]
+        }
+      ]
+    },
+    "placard": {
+      "titre": "Ton placard, à vérifier",
+      "intro": "Les épices, les huiles et le stock de féculents et conserves sont déjà là. Ce sont les quantités qu'il faut confirmer.",
+      "rayons": [
+        {
+          "nom": "Féculents & conserves",
+          "articles": [
+            { "id": "v1", "texte": "500 g de riz basmati" },
+            { "id": "v2", "texte": "400 g de pâtes complètes" },
+            { "id": "v3", "texte": "3 boîtes de tomates concassées" },
+            { "id": "v4", "texte": "2 boîtes de haricots rouges" },
+            { "id": "v5", "texte": "3 boîtes de pois chiches" },
+            { "id": "v6", "texte": "1 boîte de lait de coco" },
+            { "id": "v7", "texte": "2 boîtes de thon au naturel" }
+          ]
+        },
+        {
+          "nom": "Épices & basiques",
+          "articles": [
+            { "id": "v8", "texte": "Paprika fumé, cumin, ail en poudre" },
+            { "id": "v9", "texte": "Curry, curcuma" },
+            { "id": "v10", "texte": "Origan, herbes de Provence, cannelle" },
+            { "id": "v11", "texte": "Huile d'olive, sel, poivre" },
+            { "id": "v12", "texte": "Sauce soja, miel, vinaigre" },
+            { "id": "v13", "texte": "Bouillon de volaille en cubes" },
+            { "id": "v14", "texte": "Bicarbonate alimentaire, pour adoucir la tomate" }
+          ]
+        }
+      ]
+    },
+    "semaine": {
+      "titre": "Les courses de la semaine",
+      "intro": "Pour une personne, cinq jours, petits-déjeuners et collations compris.",
+      "rayons": [
+        {
+          "nom": "Boucherie",
+          "articles": [
+            { "id": "a1", "texte": "1,2 kg de hauts de cuisse de poulet désossés" },
+            { "id": "a2", "texte": "600 g de bœuf haché 5 %" }
+          ]
+        },
+        {
+          "nom": "Crèmerie & œufs",
+          "articles": [
+            { "id": "a3", "texte": "24 œufs — 18 pour le plan, le reste pour le kit de secours" },
+            { "id": "a4", "texte": "2 L de lait entier — pas de demi-écrémé en ce moment" },
+            { "id": "a5", "texte": "1 kg de yaourt grec nature, pour les sauces salées" },
+            { "id": "a6", "texte": "1,5 kg de yaourt grec vanillé — dont quelques pots individuels pour la salle" },
+            { "id": "a7", "texte": "200 g de fêta" },
+            { "id": "a8", "texte": "150 g de fromage râpé" }
+          ]
+        },
+        {
+          "nom": "Fruits & légumes",
+          "articles": [
+            { "id": "a9", "texte": "3 courgettes" },
+            { "id": "a10", "texte": "4 poivrons" },
+            { "id": "a11", "texte": "2 oignons rouges, 2 oignons jaunes" },
+            { "id": "a12", "texte": "1 tête d'ail" },
+            { "id": "a13", "texte": "800 g de patates douces" },
+            { "id": "a14", "texte": "400 g de carottes" },
+            { "id": "a15", "texte": "3 citrons" },
+            { "id": "a16", "texte": "1 morceau de gingembre frais" },
+            { "id": "a17", "texte": "1 bouquet de menthe ou d'aneth" },
+            { "id": "a18", "texte": "1 botte de coriandre" },
+            { "id": "a19", "texte": "8 bananes — en laisser 2 bien mûrir pour les pancakes" },
+            { "id": "a20", "texte": "1 grappe de raisin, 3 kiwis" },
+            { "id": "a21", "texte": "2 avocats" }
+          ]
+        },
+        {
+          "nom": "Épicerie",
+          "articles": [
+            { "id": "a22", "texte": "1 kg de flocons d'avoine" },
+            { "id": "a23", "texte": "250 g de lentilles corail" },
+            { "id": "a24", "texte": "1 grand pot de beurre de cacahuète" },
+            { "id": "a25", "texte": "200 g d'amandes" },
+            { "id": "a26", "texte": "100 g de graines de courge" },
+            { "id": "a27", "texte": "1 sachet de levure chimique" },
+            { "id": "a28", "texte": "1 paquet de grandes tortillas" },
+            { "id": "a29", "texte": "1 pain complet" }
+          ]
+        },
+        {
+          "nom": "Surgelés",
+          "articles": [
+            { "id": "a30", "texte": "600 g d'épinards en branches" },
+            { "id": "a31", "texte": "750 g de fruits rouges" }
+          ]
+        }
+      ]
+    }
+  },
+
+  "secours": {
+    "intro": "Pour les soirs où il n'y a plus rien de prêt. Moins de dix minutes, avec ce qui dort dans le placard.",
+    "plats": [
+      { "id": "r1", "duree": "2 min", "proteines": "≈ 25 g", "titre": "Le shake", "texte": "250 ml de lait entier, une banane, 40 g de flocons d'avoine, 2 c. à s. de beurre de cacahuète. Secoué dans un bocal, même sans mixeur. Environ 600 calories bues en deux minutes quand l'appétit n'est pas là." },
+      { "id": "r2", "duree": "4 min", "proteines": "≈ 25 g", "titre": "Œufs brouillés, tortilla, fromage", "texte": "3 œufs feu doux, une tortilla passée à la poêle, du râpé dedans. Roulé, mangé debout s'il le faut." },
+      { "id": "r3", "duree": "4 min", "proteines": "≈ 35 g", "titre": "Thon et pois chiches", "texte": "Une boîte de thon égouttée, une boîte de pois chiches rincée, oignon rouge émincé, beaucoup d'huile d'olive, citron, sel. Le plus protéiné de la liste, et zéro cuisson." },
+      { "id": "r4", "duree": "7 min", "proteines": "≈ 30 g", "titre": "Omelette épinards-fêta", "texte": "Une poignée d'épinards surgelés au micro-ondes, égouttés, 3 œufs battus par-dessus, de la fêta émiettée. Plie en deux." },
+      { "id": "r5", "duree": "6 min", "proteines": "≈ 20 g", "titre": "Riz sauté à l'œuf", "texte": "Une portion de riz du congélateur au micro-ondes, un œuf au plat dessus, sauce soja, un filet d'huile de sésame." },
+      { "id": "r6", "duree": "2 min", "proteines": "≈ 20 g", "titre": "Bol yaourt-avoine", "texte": "Un gros yaourt grec vanillé, 40 g de flocons crus, une cuillère de beurre de cacahuète, du granola. Ça se mange au lit, ça compte quand même." },
+      { "id": "r7", "duree": "2 min", "proteines": "≈ 15 g", "titre": "Tortilla cacahuète-banane", "texte": "Une tortilla, du beurre de cacahuète, une banane en rondelles, roulée. Le truc qu'on fait quand on est vraiment à bout, et qui vaut infiniment mieux que rien." },
+      { "id": "r8", "duree": "10 min", "proteines": "≈ 25 g", "titre": "Pâtes au dhal", "texte": "Une portion de dhal du congélateur au micro-ondes pendant que les pâtes cuisent. Mélangé, avec du râpé." }
+    ],
+    "placardMinimum": {
+      "frigo": ["œufs", "lait entier", "yaourt grec vanillé", "fromage râpé"],
+      "placard": ["thon", "pois chiches", "tortillas", "pâtes", "flocons d'avoine", "beurre de cacahuète"],
+      "congelateur": ["une portion de dhal", "une portion de chili", "du riz", "des épinards"]
+    }
+  },
+
+  "objectif": {
+    "titre": "Reprendre du poids, en deux semaines",
+    "realite": "En quatorze jours, la prise de tissu réelle se compte en centaines de grammes. Mais après une période de repas sautés, la balance peut bouger d'un à deux kilos : les muscles se rechargent en glycogène et en eau, et le système digestif se remplit à nouveau. C'est du poids réel, et ça se sent sur l'énergie avant de se voir.",
+    "mesure": "Ne pas se peser tous les jours. Le vrai indicateur des deux semaines, c'est le nombre de repas effectivement pris.",
+    "surplusVise": "400 à 500 kcal par jour de plus, en augmentant la densité et non le volume.",
+    "leviers": [
+      { "texte": "Le lait entier partout à la place du demi-écrémé — porridge, oats, shake, café", "kcal": 80 },
+      { "texte": "Une cuillère à soupe d'huile d'olive sur chaque plat salé, au moment de servir", "kcal": 180 },
+      { "texte": "Deux cuillères de beurre de cacahuète dans la journée — oats, tartine, yaourt", "kcal": 190 },
+      { "texte": "Une poignée d'amandes en collation, laissée en évidence sur le plan de travail", "kcal": 170 },
+      { "texte": "Le shake les jours où un vrai repas ne passe pas", "kcal": 600 }
+    ],
+    "leviersNote": "Trois de ces cinq suffisent. Ils ne demandent aucune cuisine, aucune décision et aucun appétit particulier — c'est pour ça qu'ils marchent quand manger est difficile.",
+    "suivi": {
+      "jours": 14,
+      "colonnes": ["matin", "midi", "soir", "extra"],
+      "total": 56,
+      "cible": 45,
+      "note": "« Extra », c'est la collation ou le shake. Viser 45 cases sur 56 : la régularité, pas la perfection."
+    }
+  },
+
+  "ouAcheter": [
+    { "nom": "Decathlon", "prix": "≈ 36–39 €/kg", "texte": "Le plus simple, présent à Lyon et à Bordeaux, on repart avec le pot. Whey vanille ou chocolat à 34,99 € les 900 g, ou 53,99 € les 1,5 kg. Prendre vanille : ça passe partout.", "source": "https://www.decathlon.fr/nutrition-sante/proteines" },
+    { "nom": "MyProtein, en ligne", "prix": "≈ 25–40 €/kg", "texte": "Impact Whey autour de 40 € le kilo au prix affiché, mais les promos sont quasi permanentes. Attendre une promo plutôt que commander au prix fort. Quelques jours de livraison.", "source": "https://ledenicheur.fr/product.php?p=1502760" },
+    { "nom": "Les gainers", "prix": "≈ 18 €/kg", "texte": "Un Serious Mass à 48,99 € les 2,7 kg paraît imbattable, mais c'est surtout du sucre et de la maltodextrine. Le shake maison fait le même travail avec de vrais aliments." },
+    { "nom": "Comment ça s'utilise", "texte": "Une mesurette = 25 à 30 g de poudre = 20 à 24 g de protéines, dans 250 ml de lait entier plutôt que de l'eau. Le meilleur moment est celui où on y pense. Aucune magie dans le timing." }
+  ],
+
+  "ajustements": [
+    { "cle": "Le yaourt", "texte": "Le yaourt grec vanillé remplace le skyr partout. Environ deux fois moins de protéines mais nettement plus de calories — un bon échange pour l'objectif actuel. Les protéines se récupèrent sur les œufs, le poulet et la poudre dans les overnight oats." },
+    { "cle": "Les pommes", "texte": "Retirées du plan, remplacées par du raisin, des kiwis, du melon et des bananes." },
+    { "cle": "Le soir", "texte": "Dîner plus tôt, en faire le repas le plus léger des trois, ne pas s'allonger dans l'heure qui suit. Le chili et les plats à la tomate plutôt le midi, avec une bonne cuillère de yaourt dessus." }
+  ],
+
+  "design": {
+    "typographie": {
+      "display": "Fraunces",
+      "corps": "Karla",
+      "donnees": "IBM Plex Mono"
+    },
+    "couleursClair": {
+      "ground": "#F2F3ED", "surface": "#FBFCF8", "surface2": "#E7EAE0",
+      "ink": "#191E19", "ink2": "#5B6458", "ink3": "#848D80",
+      "line": "#D6DBCC", "lineSoft": "#E3E7DA",
+      "accent": "#3B6747", "accentSoft": "#E1EBE0",
+      "heat": "#B44F27", "heatSoft": "#F4E3D9"
+    },
+    "couleursSombre": {
+      "ground": "#121611", "surface": "#1B201C", "surface2": "#242A25",
+      "ink": "#E9EDE5", "ink2": "#9BA497", "ink3": "#7D8779",
+      "line": "#2E352E", "lineSoft": "#262C26",
+      "accent": "#86BE91", "accentSoft": "#1F2C21",
+      "heat": "#DF8556", "heatSoft": "#30211A"
+    }
+  },
+
+  "briques": {
+    "titre": "Le principe : des briques, pas des plats",
+    "intro": "Cuisiner cinq plats finis, c'est le piège classique : au troisième jour on n'en peut plus et on recommence à sauter des repas. On cuisine quatre familles séparément, et on les combine au dernier moment.",
+    "familles": [
+      { "cle": "Protéines", "valeur": "Poulet rôti, chili de bœuf, dhal de lentilles, œufs durs" },
+      { "cle": "Féculents", "valeur": "Riz basmati, patates douces, pâtes complètes, tortillas" },
+      { "cle": "Légumes", "valeur": "Deux plaques rôties, épinards, haricots rouges, pois chiches" },
+      { "cle": "Sauces", "valeur": "Yaourt-herbes, cacahuète-soja — c'est elles qui changent tout" }
+    ]
+  },
+
+  "textes": {
+    "eyebrow": "plan de reprise",
+    "accroche": "Tu cuisines samedi et dimanche, et la semaine tu n'as plus une seule décision à prendre. Tout se coche, et les coches restent là même hors connexion.",
+    "aujourdhui": {
+      "label": "Aujourd'hui",
+      "sessionCta": "Ouvrir le déroulé",
+      "secoursCta": "Rien de prêt ? Secours",
+      "petitDejeuner": "Petit-déj",
+      "midi": "Midi",
+      "soir": "Soir"
+    },
+    "semaine": {
+      "titreRepas": "Les dix repas de la semaine",
+      "introRepas": "Chaque case est déjà écrite : tu ouvres le frigo et tu assembles. Si une journée saute, tout se décale d'un cran, ça ne casse rien.",
+      "nomCollations": "Collations, tous les jours",
+      "titrePetitsDejeuners": "Les six petits-déjeuners",
+      "introPetitsDejeuners": "Jamais deux fois le même, entre 22 et 30 g de protéines chacun, dix minutes maximum. Deux sont déjà prêts grâce au week-end.",
+      "titreAjustements": "Trois ajustements pour toi"
+    },
+    "cuisiner": {
+      "titreSessions": "Les deux sessions",
+      "introSessions": "Coche au fur et à mesure : tu peux poser le téléphone, sortir de l'application et revenir, rien ne se perd. Les durées se lancent en minuteur d'un doigt.",
+      "labelRendu": "À la sortie",
+      "titreConservation": "Conservation — les six règles",
+      "introConservation": "C'est la partie qu'on néglige et qui décide si la semaine tient jusqu'au vendredi."
+    },
+    "courses": {
+      "titre": "Ce qu'il faut acheter",
+      "intro": "Trois blocs, parce qu'ils ne s'achètent pas au même moment : le matériel une bonne fois pour toutes, le placard déjà là qu'il faut juste vérifier, et les courses du week-end.",
+      "titrePoudre": "Les protéines en poudre : où, combien, comment",
+      "introPoudre": "Elles ne sont pas nécessaires pour que le plan marche — c'est du confort, pas un passage obligé. Mais quand manger assez est difficile, boire ses calories est souvent plus facile que les mâcher."
+    },
+    "secours": {
+      "titre": "Le kit de secours",
+      "titrePlacard": "Le placard qui ne doit jamais être vide",
+      "introPlacard": "Tant que ces choses-là sont là, il est impossible de se retrouver sans rien à manger.",
+      "labels": { "frigo": "Frigo", "placard": "Placard", "congelateur": "Congélateur" }
+    },
+    "objectif": {
+      "labelMesure": "La vraie mesure",
+      "titreLeviers": "Les cinq gestes qui font le surplus",
+      "titreSuivi": "Quatorze jours",
+      "introSuivi": "Une case par repas pris. Pas de calories, pas de pesée : juste est-ce que tu as mangé. C'est le seul chiffre qui compte pour l'instant.",
+      "colonneJour": "Jour"
+    },
+    "foot": "Plan pour une personne. Les temps de cuisson supposent un four à chaleur tournante — compte cinq minutes de plus en statique. Les repères de calories et de protéines sont des ordres de grandeur destinés à orienter, pas une prescription : pour un objectif de poids précis, un suivi personnalisé, ou si une perte de poids récente ou des remontées acides persistent, un médecin ou un diététicien reste la bonne adresse."
+  }
+}

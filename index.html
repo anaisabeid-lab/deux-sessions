@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deux sessions, dix repas</title>
+<meta name="description" content="Le plan de la semaine, les deux sessions de cuisine, les courses, le kit de secours et le suivi des quatorze jours.">
+<meta name="theme-color" content="#F2F3ED" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121611" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Deux sessions">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<nav class="tabbar" role="tablist" aria-label="Sections" hidden>
+  <button role="tab" type="button" data-tab="semaine" aria-selected="true" aria-controls="p-semaine" id="tab-semaine">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 11h18"/></svg>Semaine</button>
+  <button role="tab" type="button" data-tab="cuisiner" aria-selected="false" aria-controls="p-cuisiner" id="tab-cuisiner">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 11h16a7 7 0 0 1-7 7h-2a7 7 0 0 1-7-7Z"/><path d="M6 6.5V4M10 6.5V4M14 6.5V4"/><path d="M3 21h18"/></svg>Cuisiner</button>
+  <button role="tab" type="button" data-tab="courses" aria-selected="false" aria-controls="p-courses" id="tab-courses">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16l-1.5 11a2 2 0 0 1-2 1.7H7.5a2 2 0 0 1-2-1.7Z"/><path d="M9 6a3 3 0 0 1 6 0"/></svg>Courses</button>
+  <button role="tab" type="button" data-tab="secours" aria-selected="false" aria-controls="p-secours" id="tab-secours">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2 4 14h7l-1 8 9-12h-7Z"/></svg>Secours</button>
+  <button role="tab" type="button" data-tab="objectif" aria-selected="false" aria-controls="p-objectif" id="tab-objectif">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.4"/></svg>Objectif</button>
+</nav>
+
+<div class="shell" id="shell" hidden>
+  <div class="masthead">
+    <span class="eyebrow" id="masthead-eyebrow"></span>
+    <h1 id="masthead-title"></h1>
+    <p id="masthead-accroche">Tu cuisines samedi et dimanche, et la semaine tu n'as plus une seule décision à prendre. Tout se coche, et les coches restent là même hors connexion.</p>
+  </div>
+
+  <div class="panel" id="p-semaine" role="tabpanel" aria-labelledby="tab-semaine" tabindex="-1"></div>
+  <div class="panel" id="p-cuisiner" role="tabpanel" aria-labelledby="tab-cuisiner" tabindex="-1" hidden></div>
+  <div class="panel" id="p-courses" role="tabpanel" aria-labelledby="tab-courses" tabindex="-1" hidden></div>
+  <div class="panel" id="p-secours" role="tabpanel" aria-labelledby="tab-secours" tabindex="-1" hidden></div>
+  <div class="panel" id="p-objectif" role="tabpanel" aria-labelledby="tab-objectif" tabindex="-1" hidden></div>
+</div>
+
+<div class="timer-tray" id="timer-tray" role="region" aria-label="Minuteurs en cours" hidden></div>
+
+<div class="boot" id="boot">
+  <p>Chargement…</p>
+</div>
+
+<noscript>
+  <div class="boot">
+    <p>Cette application a besoin de JavaScript pour fonctionner. Active-le dans les réglages de ton navigateur.</p>
+  </div>
+</noscript>
+
+<p aria-live="polite" class="sr" id="live"></p>
+
+<script src="app.js"></script>
+</body>
+</html>
